@@ -1,0 +1,217 @@
+/* RecordPress styling for Twentyfifteen theme. */
+
+#rp-wrapper {
+	margin-top: 1.6%;
+	margin-right: 1.6%;
+	max-width: 98.4%;
+}
+
+#rp-header {
+	padding: 1.6% 1.6% 1.6% 1.6%;
+	background-color: #0e0e0e;
+}
+
+.rp-error-notice {
+	color: #ff0000;
+}
+
+
+
+	.entry-content > .rp-content-box-letters a {
+		border: none;
+	}
+
+/**
+ *	CSS to handle category viewer on page
+ */
+.entry-content > .rp-category-viewer {
+	padding-top: 10px;
+	padding-bottom: 14px;
+	padding-left: 2%;
+	margin-bottom: 20px;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+/**
+ *	CSS to handle category list.
+ */
+.rp-category-list-wrapper {
+	overflow: hidden;
+	width: 100%;
+	font-size: 14px;
+	position:relative;
+}
+
+	.rp-category-list-name {
+		float: left;
+		width: 100%;
+		padding-top: 5px;
+		padding-right: 5%;
+		padding-left: 2%;
+		padding-bottom: 5px;
+	}
+
+	.rp-category-list-edit {
+		float: right;
+		right: 0;
+		width: 10%;
+		padding-top: 5px;
+		padding-right: 1%;
+		padding-bottom: 5px;
+		text-align: right;
+		position:absolute;
+
+	}
+
+	.rp-category-list-single-wrapper {
+		overflow: auto;
+		width: 100%;
+	}
+
+		.rp-category-list-single-wrapper:nth-child(even) {
+			background-color: #f7f7f7;
+		}
+
+		.rp-category-list-single-wrapper:hover .rp-category-list-name, .rp-category-list-single-wrapper:hover .rp-category-list-edit, .rp-category-list-single-wrapper:hover .rp-category-list-delete {
+			background-color: #e4e4e4;
+		}
+
+
+/**
+ *	CSS to handle when viewing records in category list.
+ */
+.rp-record-list-wrapper {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	word-wrap: break-word;
+	-moz-hyphens:auto; 
+	-webkit-hyphens:auto; 
+	-o-hyphens:auto; 
+	hyphens:auto;
+	top: 0;
+	left: 0;
+	clear: both;
+	font-size: 0px;
+}
+
+	.rp-record-list-wrapper-first {
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+
+	.rp-record-list-wrapper:nth-child(even) {
+		background-color: #f7f7f7;
+	}
+
+.rp-record-list {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 49%;
+	min-width: 49%;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-right: 2%;
+	font-size: 16px;
+}
+
+	.rp-record-list:nth-child(2n) {
+		margin-right: inherit;
+	}
+
+	.rp-record-list-picture {
+		max-width: 100%;
+		min-width: 100%;
+		padding-bottom: 2%;
+	}
+
+.rp-record-list-goback {
+
+		float: left;
+		width: 30%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+}
+
+
+/**
+ *	CSS to handle when viewing a single record.
+ */
+.rp-record-wrapper {
+	display: block;
+	max-width: 98%;
+	font-size: 14px;
+	overflow: auto;
+	margin-bottom: 20px;
+	word-wrap: break-word;
+	-moz-hyphens:auto; 
+	-webkit-hyphens:auto; 
+	-o-hyphens:auto;
+	hyphens:auto;
+	padding-top: 0.4%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 0.3%;
+}
+
+.rp-single-record-list {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-bottom: 5px;
+}
+
+	.rp-single-record-list-span-1 {
+		padding-right: 1%;
+		font-weight: bold;
+		float: left;
+		clear: left;
+	}
+
+.rp-single-record-list-single {
+	width: 100%;
+	padding-top: 5px;
+	padding-right: 5%;
+}
+
+	.rp-single-record-list-single-span-1 {
+		font-weight: bold;
+		float: left;
+		clear: left;
+	}
+
+	.rp-single-record-list-single-span-2 {
+		float: left;
+		clear: left;
+		padding-bottom: 10px;
+	}
+
+	.rp-single-record-pictures-span-2 > .attachment-full {
+		float: left;
+		clear: left;
+		padding-bottom: 10px;
+	}
+
+		.rp-single-record-pictures-span-2 > .attachment-full:last-child {
+			padding-bottom: inherit;
+		}
+
+.rp-single-record-list-single-edit {
+	clear: both;
+}
+
+	.rp-nav-goback {
+		float: left;
+		clear: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}

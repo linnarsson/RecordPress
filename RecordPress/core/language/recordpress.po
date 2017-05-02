@@ -1,0 +1,751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RecordPress\n"
+"POT-Creation-Date: 2015-08-16 23:13+0200\n"
+"PO-Revision-Date: 2015-08-16 23:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backup/rp-add-record.php:26 rp-add-record.php:147
+msgid "You better type in an artist name for this record."
+msgstr ""
+
+#: backup/rp-add-record.php:31 backup/rp-add-record.php:36
+#: rp-add-record.php:152 rp-add-record.php:157
+msgid "Quantity field can only have numbers and can't be blank."
+msgstr ""
+
+#: backup/rp-add-record.php:42 rp-add-record.php:163
+msgid "Price field can only contain numbers."
+msgstr ""
+
+#: backup/rp-add-record.php:232 plugin.php:373 rp-add-record.php:358
+#: rp-search.php:34 rp-start.php:51 rp-view-record.php:41
+#: shortcodes/rp-shortcode-category-selector.php:55
+#: shortcodes/rp-shortcode-category-viewer.php:60
+msgid "Add record"
+msgstr ""
+
+#: backup/rp-add-record.php:235 rp-add-record.php:361
+msgid "Add from Discogs (PRE-ALPHA):"
+msgstr ""
+
+#: backup/rp-add-record.php:240 rp-add-record.php:366
+msgid ""
+"Notice: This feature is marked as pre-alpha and may not work properly. To "
+"import a record from Discogs, insert the release-code. Example: [r5727135]. "
+"Some data like images is not imported. Please consult"
+msgstr ""
+
+#: backup/rp-add-record.php:240 rp-add-record.php:366
+msgid "Recordpress Codex."
+msgstr ""
+
+#: backup/rp-add-record.php:240 rp-add-record.php:366
+msgid "codex"
+msgstr ""
+
+#: backup/rp-add-record.php:240 rp-add-record.php:366
+msgid "for further information."
+msgstr ""
+
+#: backup/rp-add-record.php:243 rp-add-record.php:369
+msgid "Insert record &raquo;"
+msgstr ""
+
+#: backup/rp-add-record.php:252 rp-add-record.php:378 rp-edit-record.php:390
+#: rp-search.php:53 rp-start.php:71 rp-view-record.php:157
+#: shortcodes/rp-shortcode-category-viewer.php:186
+#: shortcodes/rp-shortcode-latest-added-records.php:19
+#: shortcodes/rp-shortcode-record-by-id.php:78
+#: shortcodes/rp-shortcode-record.php:78 shortcodes/rp-shortcode-search.php:14
+#: shortcodes/rp-shortcode-search.php:99
+msgid "Artist:"
+msgstr ""
+
+#: backup/rp-add-record.php:256 rp-add-record.php:382 rp-edit-record.php:394
+msgid "Title:"
+msgstr ""
+
+#: backup/rp-add-record.php:260 rp-add-record.php:386 rp-edit-record.php:398
+#: rp-search.php:73 rp-start.php:91 rp-view-record.php:177
+#: rp-view-single-record.php:73 shortcodes/rp-shortcode-category-viewer.php:206
+#: shortcodes/rp-shortcode-latest-added-records.php:39
+#: shortcodes/rp-shortcode-record-by-id.php:97
+#: shortcodes/rp-shortcode-record.php:97 shortcodes/rp-shortcode-search.php:34
+#: shortcodes/rp-shortcode-search.php:119
+msgid "Catalog #:"
+msgstr ""
+
+#: backup/rp-add-record.php:264 rp-add-record.php:390 rp-edit-record.php:402
+#: rp-view-single-record.php:136 rp-view-single-record.php:189
+#: shortcodes/rp-shortcode-record-by-id.php:218
+#: shortcodes/rp-shortcode-record.php:218
+msgid "Barcode, matrix and other identifiers:"
+msgstr ""
+
+#: backup/rp-add-record.php:268 rp-add-record.php:394 rp-edit-record.php:406
+#: rp-search.php:61 rp-start.php:79 rp-view-record.php:165
+#: rp-view-single-record.php:80 shortcodes/rp-shortcode-category-viewer.php:194
+#: shortcodes/rp-shortcode-latest-added-records.php:27
+#: shortcodes/rp-shortcode-record-by-id.php:106
+#: shortcodes/rp-shortcode-record.php:106 shortcodes/rp-shortcode-search.php:22
+#: shortcodes/rp-shortcode-search.php:107
+msgid "Label:"
+msgstr ""
+
+#: backup/rp-add-record.php:272 rp-add-record.php:398 rp-edit-record.php:410
+#: rp-search.php:69 rp-start.php:87 rp-view-record.php:173
+#: rp-view-single-record.php:87 shortcodes/rp-shortcode-category-viewer.php:202
+#: shortcodes/rp-shortcode-latest-added-records.php:35
+#: shortcodes/rp-shortcode-record-by-id.php:115
+#: shortcodes/rp-shortcode-record.php:115 shortcodes/rp-shortcode-search.php:30
+#: shortcodes/rp-shortcode-search.php:115
+msgid "Released:"
+msgstr ""
+
+#: backup/rp-add-record.php:276 rp-add-record.php:402 rp-edit-record.php:414
+#: rp-view-single-record.php:94 shortcodes/rp-shortcode-record-by-id.php:124
+#: shortcodes/rp-shortcode-record.php:124
+msgid "Genre:"
+msgstr ""
+
+#: backup/rp-add-record.php:280 rp-add-record.php:406 rp-edit-record.php:418
+#: rp-view-single-record.php:101 shortcodes/rp-shortcode-record-by-id.php:133
+#: shortcodes/rp-shortcode-record.php:133
+msgid "Style:"
+msgstr ""
+
+#: backup/rp-add-record.php:284 rp-add-record.php:410 rp-edit-record.php:422
+#: rp-view-single-record.php:108 shortcodes/rp-shortcode-record-by-id.php:142
+#: shortcodes/rp-shortcode-record.php:142
+msgid "Format:"
+msgstr ""
+
+#: backup/rp-add-record.php:301 rp-add-record.php:437 rp-edit-record.php:454
+#: rp-view-single-record.php:115 shortcodes/rp-shortcode-record-by-id.php:151
+#: shortcodes/rp-shortcode-record.php:151
+msgid "Grade record(s):"
+msgstr ""
+
+#: backup/rp-add-record.php:319 rp-add-record.php:455 rp-edit-record.php:476
+#: rp-view-single-record.php:122 shortcodes/rp-shortcode-record-by-id.php:160
+#: shortcodes/rp-shortcode-record.php:160
+msgid "Grade innersleeve(s):"
+msgstr ""
+
+#: backup/rp-add-record.php:337 rp-add-record.php:473 rp-edit-record.php:497
+#: rp-view-single-record.php:129 shortcodes/rp-shortcode-record-by-id.php:169
+#: shortcodes/rp-shortcode-record.php:169
+msgid "Cover grade:"
+msgstr ""
+
+#: backup/rp-add-record.php:355 rp-add-record.php:491 rp-edit-record.php:517
+#: rp-search.php:65 rp-start.php:83 rp-view-record.php:169
+#: rp-view-single-record.php:143
+#: shortcodes/rp-shortcode-category-viewer.php:198
+#: shortcodes/rp-shortcode-latest-added-records.php:31
+#: shortcodes/rp-shortcode-record-by-id.php:178
+#: shortcodes/rp-shortcode-record.php:178 shortcodes/rp-shortcode-search.php:26
+#: shortcodes/rp-shortcode-search.php:111
+msgid "Country:"
+msgstr ""
+
+#: backup/rp-add-record.php:359 rp-add-record.php:495 rp-edit-record.php:521
+#: rp-view-single-record.php:203 shortcodes/rp-shortcode-record-by-id.php:236
+#: shortcodes/rp-shortcode-record.php:236
+msgid "Comments:"
+msgstr ""
+
+#: backup/rp-add-record.php:363 rp-add-record.php:499 rp-edit-record.php:525
+#: rp-view-single-record.php:210 shortcodes/rp-shortcode-record-by-id.php:244
+#: shortcodes/rp-shortcode-record.php:244
+msgid "Companies:"
+msgstr ""
+
+#: backup/rp-add-record.php:367 rp-add-record.php:503 rp-edit-record.php:529
+#: rp-view-single-record.php:217 shortcodes/rp-shortcode-record-by-id.php:252
+#: shortcodes/rp-shortcode-record.php:252
+msgid "Credits:"
+msgstr ""
+
+#: backup/rp-add-record.php:371 rp-add-record.php:507 rp-edit-record.php:533
+#: rp-view-single-record.php:196 shortcodes/rp-shortcode-record-by-id.php:227
+#: shortcodes/rp-shortcode-record.php:227
+msgid "Tracklist:"
+msgstr ""
+
+#: backup/rp-add-record.php:375 rp-add-record.php:511 rp-edit-record.php:537
+msgid "Pictures:"
+msgstr ""
+
+#: backup/rp-add-record.php:377 rp-add-record.php:513 rp-edit-record.php:539
+msgid "Select image 1"
+msgstr ""
+
+#: backup/rp-add-record.php:377 backup/rp-add-record.php:381
+#: backup/rp-add-record.php:385 backup/rp-add-record.php:389
+#: backup/rp-add-record.php:393 backup/rp-add-record.php:397
+#: backup/rp-add-record.php:401 backup/rp-add-record.php:405
+#: backup/rp-add-record.php:409 backup/rp-add-record.php:413
+#: backup/rp-add-record.php:417 backup/rp-add-record.php:421
+#: backup/rp-add-record.php:425 backup/rp-add-record.php:429
+#: backup/rp-add-record.php:433 rp-add-record.php:513 rp-add-record.php:517
+#: rp-add-record.php:521 rp-add-record.php:525 rp-add-record.php:529
+#: rp-add-record.php:533 rp-add-record.php:537 rp-add-record.php:541
+#: rp-add-record.php:545 rp-add-record.php:549 rp-add-record.php:553
+#: rp-add-record.php:557 rp-add-record.php:561 rp-add-record.php:565
+#: rp-add-record.php:569 rp-edit-record.php:539 rp-edit-record.php:543
+#: rp-edit-record.php:547 rp-edit-record.php:551 rp-edit-record.php:555
+#: rp-edit-record.php:559 rp-edit-record.php:563 rp-edit-record.php:567
+#: rp-edit-record.php:571 rp-edit-record.php:575 rp-edit-record.php:579
+#: rp-edit-record.php:583 rp-edit-record.php:587 rp-edit-record.php:591
+#: rp-edit-record.php:595
+msgid "Remove"
+msgstr ""
+
+#: backup/rp-add-record.php:381 rp-add-record.php:517 rp-edit-record.php:543
+msgid "Select image 2"
+msgstr ""
+
+#: backup/rp-add-record.php:385 rp-add-record.php:521 rp-edit-record.php:547
+msgid "Select image 3"
+msgstr ""
+
+#: backup/rp-add-record.php:389 rp-add-record.php:525 rp-edit-record.php:551
+msgid "Select image 4"
+msgstr ""
+
+#: backup/rp-add-record.php:393 rp-add-record.php:529 rp-edit-record.php:555
+msgid "Select image 5"
+msgstr ""
+
+#: backup/rp-add-record.php:397 rp-add-record.php:533 rp-edit-record.php:559
+msgid "Select image 6"
+msgstr ""
+
+#: backup/rp-add-record.php:401 rp-add-record.php:537 rp-edit-record.php:563
+msgid "Select image 7"
+msgstr ""
+
+#: backup/rp-add-record.php:405 rp-add-record.php:541 rp-edit-record.php:567
+msgid "Select image 8"
+msgstr ""
+
+#: backup/rp-add-record.php:409 rp-add-record.php:545 rp-edit-record.php:571
+msgid "Select image 9"
+msgstr ""
+
+#: backup/rp-add-record.php:413 rp-add-record.php:549 rp-edit-record.php:575
+msgid "Select image 10"
+msgstr ""
+
+#: backup/rp-add-record.php:417 rp-add-record.php:553 rp-edit-record.php:579
+msgid "Select image 11"
+msgstr ""
+
+#: backup/rp-add-record.php:421 rp-add-record.php:557 rp-edit-record.php:583
+msgid "Select image 12"
+msgstr ""
+
+#: backup/rp-add-record.php:425 rp-add-record.php:561 rp-edit-record.php:587
+msgid "Select image 13"
+msgstr ""
+
+#: backup/rp-add-record.php:429 rp-add-record.php:565 rp-edit-record.php:591
+msgid "Select image 14"
+msgstr ""
+
+#: backup/rp-add-record.php:433 rp-add-record.php:569 rp-edit-record.php:595
+msgid "Select image 15"
+msgstr ""
+
+#: backup/rp-add-record.php:436 rp-add-record.php:572 rp-edit-record.php:598
+#: rp-view-single-record.php:150 shortcodes/rp-shortcode-record-by-id.php:187
+#: shortcodes/rp-shortcode-record.php:187
+msgid "Quantity:"
+msgstr ""
+
+#: backup/rp-add-record.php:447 rp-add-record.php:583 rp-edit-record.php:602
+msgid "Price (in"
+msgstr ""
+
+#: backup/rp-add-record.php:451 rp-add-record.php:587 rp-edit-record.php:606
+msgid "Auction link:"
+msgstr ""
+
+#: backup/rp-add-record.php:455 rp-add-record.php:591 rp-edit-record.php:610
+#: rp-view-single-record.php:170 shortcodes/rp-shortcode-record-by-id.php:194
+#: shortcodes/rp-shortcode-record.php:194
+msgid "Category:"
+msgstr ""
+
+#: backup/rp-add-record.php:474 rp-add-record.php:621
+msgid "Add record &raquo;"
+msgstr ""
+
+#: plugin.php:364
+msgid "RecordPress"
+msgstr ""
+
+#: plugin.php:367 rp-start.php:35 rp-view-record.php:4
+msgid "View records"
+msgstr ""
+
+#: plugin.php:370
+msgid "View single record"
+msgstr ""
+
+#: plugin.php:376 rp-edit-record.php:349
+msgid "Edit record"
+msgstr ""
+
+#: plugin.php:379 rp-add-category.php:71 rp-add-record.php:612
+#: rp-add-record.php:617 rp-edit-record.php:632 rp-edit-record.php:637
+#: rp-search.php:32 rp-start.php:50 rp-view-record.php:39
+#: shortcodes/rp-shortcode-category-selector.php:49
+#: shortcodes/rp-shortcode-category-viewer.php:54
+msgid "Add category"
+msgstr ""
+
+#: plugin.php:382
+msgid "Edit category"
+msgstr ""
+
+#: plugin.php:385 rp-edit-record.php:379 rp-search.php:41 rp-start.php:57
+#: rp-view-record.php:47 rp-view-single-record.php:60
+#: shortcodes/rp-shortcode-search-field.php:8 widgets/rp-widget-search.php:40
+msgid "Search"
+msgstr ""
+
+#: plugin.php:388
+msgid "Formats"
+msgstr ""
+
+#: plugin.php:391
+msgid "Edit formats"
+msgstr ""
+
+#: plugin.php:394
+msgid "Delete formats"
+msgstr ""
+
+#: plugin.php:402 rp-settings.php:105
+msgid "Settings"
+msgstr ""
+
+#: rp-add-category.php:19 rp-add-record.php:92 rp-edit-record.php:84
+msgid "Category already exists."
+msgstr ""
+
+#: rp-add-category.php:26 rp-add-record.php:99 rp-edit-record.php:91
+msgid "You better type in an categoryname!"
+msgstr ""
+
+#: rp-add-category.php:76
+msgid "Name your new category:"
+msgstr ""
+
+#: rp-add-category.php:79
+msgid "Add category &raquo;"
+msgstr ""
+
+#: rp-add-record.php:33 rp-edit-formats.php:23 rp-edit-formats.php:75
+#: rp-edit-record.php:25 rp-formats.php:19
+msgid "Format already exists."
+msgstr ""
+
+#: rp-add-record.php:40 rp-edit-record.php:32 rp-formats.php:26
+msgid "You better type in a name for your new format!"
+msgstr ""
+
+#: rp-add-record.php:428 rp-add-record.php:433 rp-edit-record.php:445
+#: rp-edit-record.php:450 rp-formats.php:59
+msgid "Add format"
+msgstr ""
+
+#: rp-edit-formats.php:29
+msgid "You better type in an name for the format!"
+msgstr ""
+
+#: rp-edit-formats.php:106
+msgid "Edit format"
+msgstr ""
+
+#: rp-edit-formats.php:111 rp-formats.php:64
+msgid "Name your new format:"
+msgstr ""
+
+#: rp-edit-formats.php:114 rp-settings.php:283
+msgid "Update &raquo;"
+msgstr ""
+
+#: rp-edit-formats.php:121
+msgid "No format to display"
+msgstr ""
+
+#: rp-edit-record.php:366
+msgid "Show categories by letter"
+msgstr ""
+
+#: rp-edit-record.php:373 rp-view-record.php:34 rp-view-single-record.php:54
+msgid "Show all categories"
+msgstr ""
+
+#: rp-edit-record.php:373 rp-search.php:24 rp-start.php:49
+#: rp-view-record.php:34 rp-view-single-record.php:54
+#: shortcodes/rp-shortcode-category-selector.php:28
+#: shortcodes/rp-shortcode-category-viewer.php:37
+msgid "ALL"
+msgstr ""
+
+#: rp-edit-record.php:374
+msgid "View this record."
+msgstr ""
+
+#: rp-edit-record.php:374
+msgid "View this record"
+msgstr ""
+
+#: rp-edit-record.php:378 rp-start.php:56 rp-view-record.php:46
+#: rp-view-single-record.php:59
+msgid "Search record..."
+msgstr ""
+
+#: rp-edit-record.php:424 rp-edit-record.php:456 rp-edit-record.php:478
+#: rp-edit-record.php:499 rp-edit-record.php:612
+msgid "Active:"
+msgstr ""
+
+#: rp-edit-record.php:641
+msgid "Update record &raquo;"
+msgstr ""
+
+#: rp-edit-record.php:646
+msgid "Delete record"
+msgstr ""
+
+#: rp-edit-record.php:649
+msgid "Click the checkbox to also delete images."
+msgstr ""
+
+#: rp-edit-record.php:651
+msgid "Delete record &raquo;"
+msgstr ""
+
+#: rp-edit-record.php:657 rp-view-single-record.php:248
+#: shortcodes/rp-shortcode-record-by-id.php:307
+#: shortcodes/rp-shortcode-record.php:323
+msgid "No record to display."
+msgstr ""
+
+#: rp-formats.php:67
+msgid "Add format &raquo;"
+msgstr ""
+
+#: rp-formats.php:73
+msgid "Manage formats"
+msgstr ""
+
+#: rp-formats.php:100
+msgid "Rename format"
+msgstr ""
+
+#: rp-formats.php:100
+msgid "Rename"
+msgstr ""
+
+#: rp-formats.php:100
+msgid "Delete format"
+msgstr ""
+
+#: rp-formats.php:100
+msgid "Delete"
+msgstr ""
+
+#: rp-search.php:5
+msgid "Searchresult"
+msgstr ""
+
+#: rp-search.php:22 rp-start.php:47 rp-view-record.php:32
+#: rp-view-single-record.php:52
+#: shortcodes/rp-shortcode-category-selector.php:21
+#: shortcodes/rp-shortcode-category-viewer.php:35
+msgid "Show categories sorted by"
+msgstr ""
+
+#: rp-search.php:24 rp-start.php:49
+#: shortcodes/rp-shortcode-category-selector.php:28
+#: shortcodes/rp-shortcode-category-viewer.php:37
+msgid "Show all categories."
+msgstr ""
+
+#: rp-search.php:32 rp-start.php:50 rp-view-record.php:39
+#: shortcodes/rp-shortcode-category-selector.php:49
+#: shortcodes/rp-shortcode-category-viewer.php:54
+msgid "Add category."
+msgstr ""
+
+#: rp-search.php:34 rp-start.php:51 rp-view-record.php:41
+#: shortcodes/rp-shortcode-category-selector.php:55
+#: shortcodes/rp-shortcode-category-viewer.php:60
+msgid "Add record."
+msgstr ""
+
+#: rp-search.php:57 rp-start.php:75 rp-view-record.php:161
+#: shortcodes/rp-shortcode-category-viewer.php:190
+#: shortcodes/rp-shortcode-latest-added-records.php:23
+#: shortcodes/rp-shortcode-record-by-id.php:88
+#: shortcodes/rp-shortcode-record.php:88 shortcodes/rp-shortcode-search.php:18
+#: shortcodes/rp-shortcode-search.php:103
+msgid "Recordname:"
+msgstr ""
+
+#: rp-search.php:104 rp-search.php:129 rp-start.php:112 rp-start.php:137
+#: rp-view-record.php:198 rp-view-record.php:223
+#: shortcodes/rp-shortcode-category-viewer.php:232
+#: shortcodes/rp-shortcode-category-viewer.php:257
+#: shortcodes/rp-shortcode-latest-added-records.php:59
+#: shortcodes/rp-shortcode-latest-added-records.php:84
+#: shortcodes/rp-shortcode-search.php:60 shortcodes/rp-shortcode-search.php:85
+msgid "Have a closer look at this record."
+msgstr ""
+
+#: rp-settings.php:108
+msgid "Pages"
+msgstr ""
+
+#: rp-settings.php:111
+msgid "Select page to display categories:"
+msgstr ""
+
+#: rp-settings.php:129
+msgid "Select page to display records:"
+msgstr ""
+
+#: rp-settings.php:144
+msgid "Select page to search for records:"
+msgstr ""
+
+#: rp-settings.php:160
+msgid "Update pages &raquo;"
+msgstr ""
+
+#: rp-settings.php:165
+msgid "Database collation"
+msgstr ""
+
+#: rp-settings.php:175
+msgid "Database collation for categories is currently set to"
+msgstr ""
+
+#: rp-settings.php:175
+msgid ""
+"If you need to categorize records from a certain language, you can change it "
+"here."
+msgstr ""
+
+#: rp-settings.php:204
+msgid "Update database collation &raquo;"
+msgstr ""
+
+#: rp-settings.php:209
+msgid "Currency"
+msgstr ""
+
+#: rp-settings.php:213
+msgid "Change currency:"
+msgstr ""
+
+#: rp-settings.php:228
+msgid "Update currency &raquo;"
+msgstr ""
+
+#: rp-settings.php:234
+msgid "User roles"
+msgstr ""
+
+#: rp-settings.php:235
+msgid "Who can administrate RecordPress?"
+msgstr ""
+
+#: rp-settings.php:249
+msgid "Subscriber"
+msgstr ""
+
+#: rp-settings.php:250
+msgid "Contributor"
+msgstr ""
+
+#: rp-settings.php:251
+msgid "Author"
+msgstr ""
+
+#: rp-settings.php:252
+msgid "Editor"
+msgstr ""
+
+#: rp-settings.php:253
+msgid "Administrator"
+msgstr ""
+
+#: rp-settings.php:255
+msgid ""
+"Administrators will always have access but other user roles will never have "
+"access to this settings page."
+msgstr ""
+
+#: rp-settings.php:257
+msgid "Update user role &raquo;"
+msgstr ""
+
+#: rp-settings.php:263
+msgid "Remove RecordPress"
+msgstr ""
+
+#: rp-settings.php:277
+msgid "Keep database tables on plugin deactivation."
+msgstr ""
+
+#: rp-settings.php:278
+msgid "Remove database tables on plugin deactivation."
+msgstr ""
+
+#: rp-settings.php:280
+msgid ""
+"By default RecordPress will keep database tables on plugin deactivation. If "
+"you want to completely remove RecordPress, select \n"
+"\t\t\"Remove database tables on plugin deactivation\" and click on update. "
+"Then you can completely remove RecordPress from the plugin management."
+msgstr ""
+
+#: rp-start.php:8
+msgid "Thank you for using RecordPress. Our homepage can be found at:"
+msgstr ""
+
+#: rp-start.php:8
+msgid "Visit the official homepage."
+msgstr ""
+
+#: rp-start.php:23
+#, php-format
+msgid "You have %d inserted records"
+msgstr ""
+
+#: rp-start.php:25
+#, php-format
+msgid "with a total value of %d %s"
+msgstr ""
+
+#: rp-start.php:65
+msgid "Latest added records"
+msgstr ""
+
+#: rp-view-record.php:68 shortcodes/rp-shortcode-category-viewer.php:81
+msgid "All categories:"
+msgstr ""
+
+#: rp-view-record.php:90 rp-view-record.php:131
+#: shortcodes/rp-shortcode-category-viewer.php:105
+#: shortcodes/rp-shortcode-category-viewer.php:149
+msgid "View all records in this category."
+msgstr ""
+
+#: rp-view-record.php:93 rp-view-record.php:134
+#: shortcodes/rp-shortcode-category-viewer.php:109
+#: shortcodes/rp-shortcode-category-viewer.php:153
+msgid "Edit this category."
+msgstr ""
+
+#: rp-view-record.php:93 rp-view-record.php:134
+#: shortcodes/rp-shortcode-category-viewer.php:109
+#: shortcodes/rp-shortcode-category-viewer.php:153
+msgid "Edit"
+msgstr ""
+
+#: rp-view-record.php:109 shortcodes/rp-shortcode-category-viewer.php:126
+msgid "Categories sorted by"
+msgstr ""
+
+#: rp-view-single-record.php:36
+msgid "Added"
+msgstr ""
+
+#: rp-view-single-record.php:36
+msgid "Record ID:"
+msgstr ""
+
+#: rp-view-single-record.php:55 shortcodes/rp-shortcode-record.php:313
+msgid "Edit this record."
+msgstr ""
+
+#: rp-view-single-record.php:55 shortcodes/rp-shortcode-record.php:313
+msgid "Edit this record"
+msgstr ""
+
+#: rp-view-single-record.php:157 shortcodes/rp-shortcode-record-by-id.php:261
+#: shortcodes/rp-shortcode-record.php:261
+msgid "Price:"
+msgstr ""
+
+#: rp-view-single-record.php:164 shortcodes/rp-shortcode-record-by-id.php:270
+#: shortcodes/rp-shortcode-record.php:270
+msgid "Auction:"
+msgstr ""
+
+#: rp-view-single-record.php:165
+msgid "Visit page"
+msgstr ""
+
+#: rp-view-single-record.php:227 shortcodes/rp-shortcode-record-by-id.php:280
+#: shortcodes/rp-shortcode-record.php:281
+msgid "Picture(s):"
+msgstr ""
+
+#: shortcodes/rp-shortcode-record-by-id.php:271
+#: shortcodes/rp-shortcode-record.php:271
+msgid "Visit auction"
+msgstr ""
+
+#: shortcodes/rp-shortcode-record-by-id.php:302
+#: shortcodes/rp-shortcode-record.php:318
+msgid "Go to previous page."
+msgstr ""
+
+#: shortcodes/rp-shortcode-record-by-id.php:302
+#: shortcodes/rp-shortcode-record.php:318
+msgid "&laquo; Previous"
+msgstr ""
+
+#: shortcodes/rp-shortcode-search-field.php:7
+msgid "Search..."
+msgstr ""
+
+#: widgets/rp-widget-category.php:12
+msgid "RecordPress category viewer"
+msgstr ""
+
+#: widgets/rp-widget-category.php:15
+msgid "Display available categories."
+msgstr ""
+
+#: widgets/rp-widget-category.php:40
+msgid "Categories"
+msgstr ""
+
+#: widgets/rp-widget-search.php:12
+msgid "RecordPress search"
+msgstr ""
+
+#: widgets/rp-widget-search.php:15
+msgid "Search for records."
+msgstr ""
