@@ -32,8 +32,17 @@
 				<div id="rp-admin-header-clear"></div>
 			</div>
 
-<h1><?php echo __( 'View records', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-visibility"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'View records', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 <hr />
+
 	<div id="rp-admin-content-box-wrapper">
 		<div id="rp-admin-content-box-letters">
 		<?php
@@ -62,7 +71,17 @@
 
 	<hr />
 
-	<h2 class="h2-start"><?php echo __( 'Latest added records', 'recordpress' ); ?></h2>
+<br />
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-calendar-alt"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Latest added records', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
+
 
 	<!-- Start #record-list-wrapper -->
 	<div class="rp-admin-record-list-wrapper">

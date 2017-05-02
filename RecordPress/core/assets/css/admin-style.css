@@ -1,7 +1,6 @@
 .h2-start {
 	font-size: 26px;
 	font-weight: 600;
-	padding-top: 10px;
 	color: #525252;
 }
 
@@ -31,10 +30,66 @@ img.wp-post-image {
 
 }
 
+/* Header h1 with WordPress default icons */
+.rp-header-h1 {
+	display: block;
+}
+
+	.rp-header-h1-left {
+		float: left;
+		/*padding-top: 14px;*/
+		width: 40px;
+	}
+
+		#rp-admin-wrapper > .rp-header-h1 > .rp-header-h1-left > .dashicons {
+			width: 30px !important;
+			height: 30px !important;
+			font-size: 30px !important;
+			display: block;
+		}
+
+	.rp-header-h1-right {
+		float: left;
+		text-align: left;
+	}
+
+		.rp-header-h1-right h1, h2 {
+			margin: 5px 0 0 0 !important;
+		}
+
+.rp-header-h2 {
+	display: block;
+}
+
+	.rp-header-h2-left {
+		float: left;
+		/*padding-top: 14px;*/
+		width: 30px;
+		margin-bottom: 10px;
+	}
+
+		#rp-admin-wrapper > .rp-header-h2 > .rp-header-h2-left > .dashicons {
+			width: 20px !important;
+			height: 20px !important;
+			font-size: 20px !important;
+			display: block;
+		}
+
+	.rp-header-h2-right {
+		float: left;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+		.rp-header-h2-right h1, h2 {
+			margin: 2px 0 0 0 !important;
+		}
+
+
+/* Adminheader */
 #rp-admin-header {
 	padding: 1.6% 1.6% 1.6% 1.6%;
 	margin-bottom: 2.5%;
-	/*background-color: #0e0e0e;*/
 	background-color: #23282d;
 }
 
@@ -70,6 +125,10 @@ img.wp-post-image {
 	clear: both;
 }
 
+	.clear {
+		clear: both;
+	}
+
 .rp-admin-error-notice {
 	color: #ff0000;
 }
@@ -84,14 +143,30 @@ img.wp-post-image {
 #rp-admin-content-box-letters {
 	float: left;
 	font-size: 18px;
+	text-transform: uppercase;
 }
+
+	.rp-admin-content-box-letters-add-category {
+		text-transform: none;
+	}
+
+	.rp-admin-content-box-letters-add-record {
+		text-transform: none;
+	}
+
+	.rp-admin-content-box-letters-all {
+		text-transform: none;
+	}
 
 #rp-admin-content-box-search {
 	float: right;
 }
 
 .rp-search-button {
-	-webkit-appearance:default-button;
+	-webkit-appearance: none;
+	color: #ffffff !important;
+	background-color: #007cb1;
+	border: none;
 }
 
 /* Category list */

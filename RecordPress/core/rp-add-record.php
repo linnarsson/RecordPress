@@ -256,7 +256,7 @@ if (isset($discogsgetrecord)) {
 	curl_close ($ch);
 
 	/* For debugging purposes you can output ALL values from Discogs, by uncomment the line below. */
-	// print_r( json_decode($output) );
+	print_r( json_decode($output) );
 
 	// Output from Discogs
 	$discogsoutput = json_decode($output, true);
@@ -350,12 +350,15 @@ if (isset($discogsgetrecord)) {
 <!-- START #rp_wrapper -->
 <div id="rp-admin-wrapper">
 
-
-
-
-
-
-	<h1><?php echo __( 'Add record', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-media-audio"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'Add record', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<hr />
 
 	<?php echo __( 'Add from Discogs (PRE-ALPHA):', 'recordpress' ); ?>

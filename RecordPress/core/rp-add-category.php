@@ -68,7 +68,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!-- Start #rp-admin-wrapper -->
 <div id="rp-admin-wrapper">
 
-	<h1><?php echo __( 'Add category', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-plus-alt"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'Add category', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<hr />
 
 	<form method="post" name="db" enctype="multipart/form-data">

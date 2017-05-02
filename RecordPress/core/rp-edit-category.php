@@ -114,22 +114,38 @@ if (isset($_GET['id'])) {
 <!-- Start #rp-admin-wrapper -->
 <div id="rp-admin-wrapper">
 
-	<h1>Edit category</h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-edit"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'Edit category', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<hr />
 
 	<form method="post" name="db" enctype="multipart/form-data">
 
-		Enter your new categoryname: <?php if (isset($empty_f1)) { echo '<span class="rp-admin-error-notice">' . $empty_f1 . '</span>'; } ?><?php if (isset($categoryexists)) { echo '<span class="rp-admin-error-notice">' . $categoryexists . '</span>'; } ?><br />
+		<?php echo __( 'Enter your new categoryname:', 'recordpress' ); ?> <?php if (isset($empty_f1)) { echo '<span class="rp-admin-error-notice">' . $empty_f1 . '</span>'; } ?><?php if (isset($categoryexists)) { echo '<span class="rp-admin-error-notice">' . $categoryexists . '</span>'; } ?><br />
 		<label><input name="f1" type="text" class="rp-admin-input-field" value="<?php echo htmlspecialchars(stripslashes($result->cat)); ?>" /></label>
 
 		<br /><br />
-		<input type="submit" name="updatecategoryname" value="Update &raquo;" style="height:35px; font-size:20px;" /></label>
+		<input type="submit" name="updatecategoryname" value="<?php echo __( 'Update &raquo;', 'recordpress' ); ?>" style="height:35px; font-size:20px;" /></label>
 
 	</form>
 	<hr />
 
 	<form method="post" name="db" enctype="multipart/form-data">
-		<h3>Delete category <?php if (isset($categoryexists)) { echo $categoryexists; } ?></h3>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-trash"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Delete category' ); if (isset($categoryexists)) { echo $categoryexists; } ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 		<?php
 			global $wpdb;
@@ -148,14 +164,13 @@ if (isset($_GET['id'])) {
 
 				if ($result->catd == 2) {
 		?>
-		<input type="submit" name="deletecategory" value="Delete &raquo;" style="height:35px; font-size:20px;" />
-
-		<?php } else { echo "You can't delete " . htmlspecialchars(stripslashes($result->cat)) . ", only rename it."; }} else { echo "You can't delete " . htmlspecialchars(stripslashes($result->cat)) . " beacuse it has records in it."; }?>
+		<input type="submit" name="deletecategory" value="<?php echo __( 'Delete &raquo;', 'recordpress' ); ?>" style="height:35px; font-size:20px;" />
+		<?php } else { echo __( "You can't delete " ) . "<i>" . htmlspecialchars(stripslashes($result->cat)) . "</i>" . __( ", only rename it." ); }} else { echo __( "You can't delete " ) . "<i>" . htmlspecialchars(stripslashes($result->cat)) . "</i>" . __( " beacuse it has records in it." ); } ?>
 	</form>
 
 </div>
 <!-- End #rp-admin-wrapper -->
 
 <?php
-	} } else { echo "No category to display."; }
+	} } else { echo __( 'No category to display.'); }
 ?>

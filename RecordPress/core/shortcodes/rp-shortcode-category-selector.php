@@ -25,7 +25,7 @@
 }
 
 ?> 
-<a href="<?php echo current_frontend_url(); ?>?cat=all" title="<?php echo __( 'Show all categories.', 'recordpress' ); ?>"><?php echo __( 'ALL', 'recordpress' ); ?></a>
+<a href="<?php echo current_frontend_url(); ?>?cat=all" title="<?php echo __( 'Show all categories.', 'recordpress' ); ?>" class="rp-category-viewer-all"><?php echo __( 'All', 'recordpress' ); ?></a>
 
  <?php 
 	global $wpdb;
@@ -46,13 +46,13 @@ if(!isset($_GET['record'])) {
 
 
 ?>
- - <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_category" title="<?php echo __( 'Add category.', 'recordpress' ); ?>"><?php echo __( 'Add category', 'recordpress' ); ?></a>
+ - <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_category" title="<?php echo __( 'Add category.', 'recordpress' ); ?>" class="rp-category-viewer-add-category"><?php echo __( 'Add category', 'recordpress' ); ?></a>
  <?php
 	 } else {
 
 
 ?>
-  - <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_record&cat=<?php echo $_GET['record']; ?>" title="<?php echo __( 'Add record.', 'recordpress' ); ?>"><?php echo __( 'Add record', 'recordpress' ); ?></a>
+  - <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_record&cat=<?php echo $_GET['record']; ?>" title="<?php echo __( 'Add record.', 'recordpress' ); ?>" class="rp-category-viewer-add-record"><?php echo __( 'Add record', 'recordpress' ); ?></a>
 <?php }
 }
 }

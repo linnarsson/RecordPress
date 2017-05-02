@@ -102,10 +102,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!-- START #rp_wrapper -->
 <div id="rp-admin-wrapper">
 
-	<h1><?php echo __( 'Settings', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-admin-settings"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'Settings', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<hr />
 
-	<h2><?php echo __( 'Pages', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-admin-page"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Pages', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 	<form method="post" name="updatedbpages" enctype="multipart/form-data">
 	<?php echo __( 'Select page to display categories:', 'recordpress' ); ?>
@@ -162,7 +178,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	<br />
 	<hr />
-	<h2><?php echo __( 'Database collation', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-editor-justify"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Database collation', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 	<?php
 		global $wpdb;
@@ -199,6 +223,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<option value="utf8mb4_swedish_ci" <?php if ($result->Collation == "utf8mb4_swedish_ci") { echo "selected"; } ?>>utf8mb4 Swedish</option>
 			<option value="utf8mb4_turkish_ci" <?php if ($result->Collation == "utf8mb4_turkish_ci") { echo "selected"; } ?>>utf8mb4 Turkish</option>
 		</select>
+		<i><?php echo __( 'What does this mean? Take a look at', 'recordpress' ); ?> <a href="http://www.recordpress.org/codex/settings/" title="Codex"><?php echo __(' Codex'); ?></a> <?php echo __( ' for further help', 'recordpress' ); ?>.</i>
+
 
 		<br /><br />
 		<input type="submit" name="updatedbcollation" value="<?php echo __( 'Update database collation &raquo;', 'recordpress' ); ?>" style="height:35px; font-size:20px;" /></label>
@@ -206,7 +232,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	<br />
 	<hr />
-	<h2><?php echo __( 'Currency', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-cart"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Currency', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 	<form method="post" name="changecurrencydb" enctype="multipart/form-data">
 
@@ -231,7 +265,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	<br />
 	<hr />
-	<h2><?php echo __( 'User roles', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-admin-users"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'User roles', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<?php echo __( 'Who can administrate RecordPress?', 'recordpress' ); ?>
 
 	<?php
@@ -260,7 +302,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	<br />
 	<hr />
-	<h2><?php echo __( 'Remove RecordPress', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-trash"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Remove RecordPress', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 	<?php
 		global $wpdb;

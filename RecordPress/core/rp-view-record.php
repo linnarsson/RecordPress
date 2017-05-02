@@ -1,7 +1,16 @@
 <!-- Start #rp-admin-wrapper -->
 <div id="rp-admin-wrapper">
 
-	<h1><?php echo __( 'View records', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-visibility"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'View records', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
+	
 
 	<?php if(isset($_GET['record'])) {
 
@@ -31,14 +40,14 @@
 		?>
 			<a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_view_record&cat=<?php echo urlencode(strtolower($result->letter)); ?>" title="<?php echo __( 'Show categories sorted by', 'recordpress' ); ?> <?php echo $result->letter; ?>"><?php echo $result->letter; ?></a>
 		<?php } ?> 
-			<a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_view_record&cat=all" title="<?php echo __( 'Show all categories', 'recordpress' ); ?>"><?php echo __( 'ALL', 'recordpress' ); ?></a>
+			<a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_view_record&cat=all" title="<?php echo __( 'Show all categories', 'recordpress' ); ?>" class="rp-admin-content-box-letters-all"><?php echo __( 'All', 'recordpress' ); ?></a>
 
 		<?php 
 				if(!isset($_GET['record'])) {
 		?>
-			- <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_category" title="<?php echo __( 'Add category.', 'recordpress' ); ?>"><?php echo __( 'Add category', 'recordpress' ); ?></a>
+			- <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_category" title="<?php echo __( 'Add category.', 'recordpress' ); ?>" class="rp-admin-content-box-letters-add-category"><?php echo __( 'Add category', 'recordpress' ); ?></a>
 		<?php } else { ?>
-			- <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_record&cat=<?php echo $_GET['record']; ?>" title="<?php echo __( 'Add record.', 'recordpress' ); ?>"><?php echo __( 'Add record', 'recordpress' ); ?></a>
+			- <a href="<?php echo admin_url(); ?>admin.php?page=rp_admin_add_record&cat=<?php echo $_GET['record']; ?>" title="<?php echo __( 'Add record.', 'recordpress' ); ?>" class="rp-admin-content-box-letters-add-record"><?php echo __( 'Add record', 'recordpress' ); ?></a>
 		<?php } ?>
 		</div>
 		<div id="rp-admin-content-box-search">

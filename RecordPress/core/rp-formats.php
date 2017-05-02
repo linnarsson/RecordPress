@@ -56,7 +56,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!-- START #rp_wrapper -->
 <div id="rp-admin-wrapper">
 
-	<h1><?php echo __( 'Add format', 'recordpress' ); ?></h1>
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-plus-alt"></span>
+		</div>
+		<div class="rp-header-h1-right">
+			<h1><?php echo __( 'Add format', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
 	<hr />
 
 	<form method="post" name="db" enctype="multipart/form-data">
@@ -70,7 +78,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<br />
 	<hr />
 
-	<h2><?php echo __( 'Manage formats', 'recordpress' ); ?></h2>
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-edit"></span>
+		</div>
+		<div class="rp-header-h2-right">
+			<h2><?php echo __( 'Manage formats', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
+
 	<hr />
 
 

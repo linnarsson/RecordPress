@@ -14,8 +14,27 @@ RecordPress is a plugin that can manage and categorize music collections.
 
 == Description ==
 
-Manage and categorise record collections can be time-consuming. RecordPress is a plugin for WordPress that can help you with this.
-RecordPress is powerfull but yet easy to use and it can be used for private or commercial use.
+Manage and categorise record collections can be time-consuming. RecordPress is a plugin for WordPress that can help you with this. RecordPress is powerfull but yet easy to use and it can be used for private or commercial use.
+
+= Manage and categoprize your record collection =
+
+With RecordPress you can manage and categorize your record collection and integrate it with your theme.
+
+= Supported themes =
+
+RecordPress currently have out-of-the-box support for Twenty Eleven and Twenty Fifteen themes. Help us out by supporting more themes, since RecordPress needs custom CSS to look awesome!
+
+= Shortcodes =
+
+RecordPress uses shortcodes for easy integration. Head over to http://www.recordpress.org/codex/shortcodes/ to find out what you can display in your theme.
+
+= Discogs integration =
+
+RecordPress have a Discogs integration, but it’s in alpha status. This is a function that can possibly get numerous changes in its design. At present, when adding a new record, you can copy and paste the release-code from a record, and many fields (where available) will be filled with information from that specific record.
+
+= It's free, and always will be. =
+
+Like WordPress, RecordPress is, and always will be free. We'll continue supporting and developing it for many years to come. It'll only get better from here. You are ofcourse invited to help out with the ongoing developement of RecordPress. Come with new ideas, translate RecordPress to your language, help out with support, improve and develop new features or create supported themes.
 
 
 
@@ -53,6 +72,7 @@ Visit the RecordPress support forums at https://wordpress.org/support/ where som
 8. Displaying a single record in the theme.
 
 
+
 == Changelog ==
 
 = 1.0 =
@@ -63,4 +83,4 @@ Visit the RecordPress support forums at https://wordpress.org/support/ where som
 == Upgrade Notice ==
 
 = 0.3.1 =
-* Upgrading from 0.3.1 to 1.0 is not possible since the transition to WordPress.
+* Upgrading from 0.3.1 to 1.0 is not possible since the transition to WordPress. RecordPress 0.3.1 is not supported anymore.

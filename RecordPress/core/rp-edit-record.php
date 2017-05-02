@@ -346,7 +346,16 @@ $categoryadded = "<i>" . count($_POST['rp-add-category-fields']) . " categories 
 		<!-- Start #rp-admin-wrapper -->
 		<div id="rp-admin-wrapper">
 
+	<div class="rp-header-h1">
+		<div class="rp-header-h1-left">
+			<span class="dashicons dashicons-edit"></span>
+		</div>
+		<div class="rp-header-h1-right">
 			<h1><?php echo __( 'Edit record', 'recordpress' ); ?></h1>
+		</div>
+	</div>
+	<div class="clear"></div>
+			
 			<hr />
 
 <div id="rp-admin-content-box-wrapper">
@@ -643,7 +652,15 @@ $categoryadded = "<i>" . count($_POST['rp-add-category-fields']) . " categories 
 			</form>
 
 			<hr />
+	<div class="rp-header-h2">
+		<div class="rp-header-h2-left">
+			<span class="dashicons dashicons-trash"></span>
+		</div>
+		<div class="rp-header-h2-right">
 			<h2><?php echo __( 'Delete record', 'recordpress' ); ?></h2>
+		</div>
+	</div>
+	<div class="clear"></div>
 
 		<form method="post" name="db" enctype="multipart/form-data">
 		<input name="deleteimages" id="id" type="checkbox"><?php echo __( 'Click the checkbox to also delete images.', 'recordpress' ); ?>

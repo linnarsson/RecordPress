@@ -22,7 +22,6 @@ register_deactivation_hook( __FILE__, 'rp_on_remove' );
 
 // Function when the plugin is activated.
 function rp_on_remove() {
-
 	global $wpdb;
 	$rpdb = $wpdb->prefix . 'rp_settings';
 	$sql = "SELECT uninstall FROM $rpdb";
@@ -32,19 +31,20 @@ function rp_on_remove() {
 	foreach( $results as $result ) {
 
 		if ($result->uninstall == 1) {} else {
-	global $wpdb;
-	$rpdb_category = $wpdb->prefix . "rp_category";
-	$rpdb_format = $wpdb->prefix . "rp_format";
-	$rpdb_grade = $wpdb->prefix . "rp_grade";
-	$rpdb_records = $wpdb->prefix . "rp_records";
-	$rpdb_settings = $wpdb->prefix . "rp_settings";
-	//delete_option('0.3.2');
-	$wpdb->query("DROP TABLE IF EXISTS $rpdb_category") or die(mysql_error());
-	$wpdb->query("DROP TABLE IF EXISTS $rpdb_format") or die(mysql_error());
-	$wpdb->query("DROP TABLE IF EXISTS $rpdb_grade") or die(mysql_error());
-	$wpdb->query("DROP TABLE IF EXISTS $rpdb_records") or die(mysql_error());
-	$wpdb->query("DROP TABLE IF EXISTS $rpdb_settings") or die(mysql_error());
-	} }
+			global $wpdb;
+			$rpdb_category = $wpdb->prefix . "rp_category";
+			$rpdb_format = $wpdb->prefix . "rp_format";
+			$rpdb_grade = $wpdb->prefix . "rp_grade";
+			$rpdb_records = $wpdb->prefix . "rp_records";
+			$rpdb_settings = $wpdb->prefix . "rp_settings";
+			//delete_option('0.3.2');
+			$wpdb->query("DROP TABLE IF EXISTS $rpdb_category") or die(mysql_error());
+			$wpdb->query("DROP TABLE IF EXISTS $rpdb_format") or die(mysql_error());
+			$wpdb->query("DROP TABLE IF EXISTS $rpdb_grade") or die(mysql_error());
+			$wpdb->query("DROP TABLE IF EXISTS $rpdb_records") or die(mysql_error());
+			$wpdb->query("DROP TABLE IF EXISTS $rpdb_settings") or die(mysql_error());
+		}
+	}
 }
 
 // Run when the plugin is activated.
@@ -294,8 +294,7 @@ function rp_on_activate() {
 // Function when the plugin is deactivated.
 function rp_remove() {
 	// Remove created database fields.
-	/*delete_option('bvssp_data');
-	delete_option('bvssp_data_days');*/
+
 }
 
 
@@ -323,7 +322,7 @@ add_action( 'admin_init','rp_css_and_js');
 function rp_uploader_scripts() {
 	wp_enqueue_script('media-upload');
 	wp_enqueue_script('thickbox');
-	wp_register_script('rp-upload', WP_PLUGIN_URL.'/recordpress/core/assets/js/rp-admin-upload.js', array('jquery','media-upload','thickbox'));
+	wp_register_script('rp-upload', plugins_url('core/assets/js/rp-admin-upload.js',__FILE__ ), array('jquery','media-upload','thickbox'));
 	wp_enqueue_script('rp-upload');
 }
 
@@ -361,7 +360,7 @@ function recordpress_admin_menu() {
 		if ( current_user_can($result->user_role) || current_user_can('administrator')) {
 
 			/* Mainpage */
-			add_menu_page(__('RecordPress', 'rp_admin_mainpage', 'read'), __('RecordPress', 'recordpress'), 'read', 'recordpress_start', 'rp_admin_mainpage_handler');
+			add_menu_page(__('RecordPress', 'rp_admin_mainpage', 'read'), __('RecordPress', 'recordpress'), 'read', 'recordpress_start', 'rp_admin_mainpage_handler', 'dashicons-album');
 
 			/* View records */
 			add_submenu_page('recordpress_start', __('View records', 'rp_admin_view_record', 'read'), __('View records', 'recordpress'), 'read', 'rp_admin_view_record', 'rp_admin_view_record_handler');
